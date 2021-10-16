@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Button, Container } from "../../global.styles";
 import {
   Headline,
+  Img,
+  ImgWrapper,
   InfoColumn,
   InfoRow,
   InfoSection,
@@ -21,6 +23,9 @@ const Info = ({
   description,
   buttonLabel,
   lightTextDesc,
+  img,
+  alt,
+  start,
 }) => {
   return (
     <>
@@ -36,6 +41,11 @@ const Info = ({
                   <Button big>{buttonLabel}</Button>
                 </Link>
               </TextWrapper>
+            </InfoColumn>
+            <InfoColumn>
+              <ImgWrapper start={start}>
+                <Img src={img} alt={alt} />
+              </ImgWrapper>
             </InfoColumn>
           </InfoRow>
         </Container>
