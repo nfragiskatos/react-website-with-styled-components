@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoSection = styled.div`
   color: ${({ theme }) => theme.palette.secondary.main};
-  padding: 160px;
+  padding: 160px 0;
   background: ${({ lightBg, theme }) =>
     lightBg ? theme.palette.primary.light : theme.palette.primary.main};
 `;
@@ -39,4 +39,32 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 768px) {
     padding-bottom: 65px;
   }
+`;
+
+export const TopLine = styled.div`
+  color: ${({ lightTopLine, theme }) =>
+    lightTopLine ? theme.palette.secondary.dark : theme.palette.primary.main};
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  margin-bottom: 16px;
+`;
+
+export const Headline = styled.h1`
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  text-transform: capitalize;
+  color: ${({ lightText, theme }) =>
+    lightText ? theme.palette.secondary.light : theme.palette.primary.main};
+`;
+
+export const Subtitle = styled.p`
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: ${({ lightTextDesc, theme }) =>
+    lightTextDesc ? theme.palette.secondary.main : theme.palette.primary.main};
 `;
