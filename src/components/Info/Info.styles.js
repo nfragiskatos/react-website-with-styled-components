@@ -4,7 +4,7 @@ export const InfoSection = styled.div`
   color: ${({ theme }) => theme.palette.secondary.main};
   padding: 160px 0;
   background: ${({ lightBg, theme }) =>
-    lightBg ? theme.palette.primary.light : theme.palette.primary.main};
+    lightBg ? theme.palette.secondary.main : theme.palette.primary.main};
 `;
 
 export const InfoRow = styled.div`

@@ -27,7 +27,7 @@ export const Container = styled.div`
 export const Button = styled.button`
   border-radius: 4px;
   white-space: nowrap;
-  background: ${({ theme }) => theme.palette.accent.main};
+  background: ${({ theme }) => theme.palette.accent.light};
   padding: ${({ big }) => (big ? "12px 64px" : "10px 20px")};
   color: ${({ theme }) => theme.palette.secondary.main};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
