@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
+import theme from "../../theme";
 import {
   HamburgerIcon,
   Nav,
   NavbarContainer,
   NavIcon,
+  NavItem,
+  NavLink,
   NavLogo,
+  NavMenu,
 } from "./Navbar.styles";
 
 const Navbar = () => {
@@ -15,7 +19,7 @@ const Navbar = () => {
   const onClick = () => setClick(!click);
 
   return (
-    <IconContext.Provider value={{ color: "#FFFFFF" }}>
+    <IconContext.Provider value={{ color: theme.palette.secondary.main }}>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
@@ -25,6 +29,11 @@ const Navbar = () => {
           <HamburgerIcon onClick={onClick}>
             {click ? <FaTimes /> : <FaBars />}
           </HamburgerIcon>
+          <NavMenu onClick={onClick} click={click}>
+            <NavItem>
+              <NavLink to="/">Home</NavLink>
+            </NavItem>
+          </NavMenu>
         </NavbarContainer>
       </Nav>
     </IconContext.Provider>
