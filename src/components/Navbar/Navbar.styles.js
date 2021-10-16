@@ -1,8 +1,10 @@
+import { FaMendeley } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Container } from "../../global.styles";
 
 export const Nav = styled.nav`
-  background: #ff11ff;
+  background: #111;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -18,4 +20,18 @@ export const NavbarContainer = styled(Container)`
   justify-content: space-between;
   height: 80px;
   ${Container}
+`;
+
+export const NavLogo = styled(Link)`
+  color: #ffffff;
+  justify-self: flex-start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+`;
+
+export const NavIcon = styled(FaMendeley)`
+  margin-right: 0.5rem;
 `;
