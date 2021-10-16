@@ -1,10 +1,10 @@
-import { FaMendeley } from "react-icons/fa";
+import { FaLeaf } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Container } from "../../global.styles";
 
 export const Nav = styled.nav`
-  background: #111;
+  background: #148394;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -32,6 +32,6 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `;
 
-export const NavIcon = styled(FaMendeley)`
+export const NavIcon = styled(FaLeaf)`
   margin-right: 0.5rem;
 `;
