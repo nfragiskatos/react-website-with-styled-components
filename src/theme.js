@@ -13,9 +13,9 @@ const theme = {
     },
 
     accent: {
-      main: "#e4bbda",
-      dark: "#d48dc3",
-      light: "#f4e4f0",
+      main: "#ab003c",
+      dark: "#77002a",
+      light: "#bb3363",
     },
   },
 };
