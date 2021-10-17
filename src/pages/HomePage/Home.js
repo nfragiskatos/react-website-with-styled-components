@@ -1,6 +1,6 @@
 import React from "react";
 import { Info } from "../../components";
-import { homeObjOne, homeObjThree, homeObjTwo } from "./Data";
+import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from "./Data";
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <Info {...homeObjOne} />
       <Info {...homeObjTwo} />
       <Info {...homeObjThree} />
+      <Info {...homeObjFour} />
     </>
   );
 };

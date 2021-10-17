@@ -16,7 +16,7 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
   lightBg: true,
-  imgStart: "",
+  imgStart: "start",
   lightTopLine: false,
   topLine: "Top Line",
   lightText: false,
@@ -25,9 +25,9 @@ export const homeObjTwo = {
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, animi veniam eos perferendis aliquam rerum dolore quisquam atque illo molestias, odio dicta culpa fugiat, obcaecati tempora praesentium tenetur libero corporis!",
   buttonLabel: "Get Started",
   lightTextDesc: false,
-  img: require("../../images/portrait.jpg").default,
+  img: require("../../images/portrait2.jpg").default,
   alt: "Image",
-  start: "",
+  start: "true",
 };
 
 export const homeObjThree = {
@@ -47,17 +47,17 @@ export const homeObjThree = {
 };
 
 export const homeObjFour = {
-  lightBg: false,
+  lightBg: true,
   imgStart: "",
-  lightTopLine: true,
+  lightTopLine: false,
   topLine: "Top Line",
-  lightText: true,
+  lightText: false,
   headline: "Lorem ipsum dolor sit amet consectetur.",
   description:
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, animi veniam eos perferendis aliquam rerum dolore quisquam atque illo molestias, odio dicta culpa fugiat, obcaecati tempora praesentium tenetur libero corporis!",
   buttonLabel: "Get Started",
-  lightTextDesc: true,
-  img: require("../../images/before_dawn_accent.svg").default,
+  lightTextDesc: false,
+  img: require("../../images/before_dawn_primary.svg").default,
   alt: "Image",
   start: "",
 };
