@@ -1,5 +1,5 @@
 import React from "react";
-import { Info } from "../../components";
+import { Info, Pricing } from "../../components";
 import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from "./Data";
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
       <Info {...homeObjTwo} />
       <Info {...homeObjThree} />
       <Info {...homeObjFour} />
+      <Pricing />
     </>
   );
 };
