@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { Footer, Navbar } from "./components";
+import ScrollToTop from "./components/ScrollToTop";
 import GlobalStyle from "./global.styles";
 import Home from "./pages/HomePage/Home";
 import Products from "./pages/Products/Products";
@@ -13,6 +14,7 @@ function App() {
     <Router>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
+        <ScrollToTop />
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
