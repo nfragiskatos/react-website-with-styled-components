@@ -37,7 +37,7 @@ const Info = ({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Headline lightText={lightText}>{headline}</Headline>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to="/sign-up">
+                <Link to="/React-With-Styled-Components/sign-up">
                   <Button big>{buttonLabel}</Button>
                 </Link>
               </TextWrapper>

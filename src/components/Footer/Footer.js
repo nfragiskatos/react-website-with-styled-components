@@ -39,38 +39,62 @@ const Footer = () => {
         <FooterLinksWrapper>
           <FooterLinksItems>
             <FooterLinkTitle>about us</FooterLinkTitle>
-            <FooterLink to="/sign-up">how it works</FooterLink>
-            <FooterLink to="/">testimonials</FooterLink>
-            <FooterLink to="/">careers</FooterLink>
-            <FooterLink to="/">investors</FooterLink>
-            <FooterLink to="/">terms of service</FooterLink>
+            <FooterLink to="/React-With-Styled-Components/sign-up">
+              how it works
+            </FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">
+              testimonials
+            </FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">careers</FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">
+              investors
+            </FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">
+              terms of service
+            </FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
             <FooterLinkTitle>contact us</FooterLinkTitle>
-            <FooterLink to="/sign-up">contact</FooterLink>
-            <FooterLink to="/">support</FooterLink>
-            <FooterLink to="/">destinations</FooterLink>
-            <FooterLink to="/">sponsorships</FooterLink>
+            <FooterLink to="/React-With-Styled-Components/sign-up">
+              contact
+            </FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">support</FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">
+              destinations
+            </FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">
+              sponsorships
+            </FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
             <FooterLinkTitle>videos</FooterLinkTitle>
-            <FooterLink to="/sign-up">submit video</FooterLink>
-            <FooterLink to="/">ambassadors</FooterLink>
-            <FooterLink to="/">agency</FooterLink>
-            <FooterLink to="/">influencer</FooterLink>
+            <FooterLink to="/React-With-Styled-Components/sign-up">
+              submit video
+            </FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">
+              ambassadors
+            </FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">agency</FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">
+              influencer
+            </FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
             <FooterLinkTitle>social media</FooterLinkTitle>
-            <FooterLink to="/sign-up">twitter</FooterLink>
-            <FooterLink to="/">youtube</FooterLink>
-            <FooterLink to="/">linkedin</FooterLink>
-            <FooterLink to="/">twitch</FooterLink>
+            <FooterLink to="/React-With-Styled-Components/sign-up">
+              twitter
+            </FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">youtube</FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">
+              linkedin
+            </FooterLink>
+            <FooterLink to="/React-With-Styled-Components/">twitch</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrapper>
-          <SocialMediaLogo to="/">
+          <SocialMediaLogo to="/React-With-Styled-Components/">
             <SocialMediaIcon />
             frag
           </SocialMediaLogo>

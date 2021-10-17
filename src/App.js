@@ -17,10 +17,19 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/services" component={Services} />
-          <Route path="/products" component={Products} />
-          <Route path="/sign-up" component={SignUp} />
+          <Route path="/React-With-Styled-Components" exact component={Home} />
+          <Route
+            path="/React-With-Styled-Components/services"
+            component={Services}
+          />
+          <Route
+            path="/React-With-Styled-Components/products"
+            component={Products}
+          />
+          <Route
+            path="/React-With-Styled-Components/sign-up"
+            component={SignUp}
+          />
         </Switch>
         <Footer />
       </ThemeProvider>

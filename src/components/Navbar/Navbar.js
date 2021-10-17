@@ -40,7 +40,10 @@ const Navbar = () => {
     <IconContext.Provider value={{ color: theme.palette.secondary.main }}>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/" onClick={closeMobileMenu}>
+          <NavLogo
+            to="/React-With-Styled-Components/"
+            onClick={closeMobileMenu}
+          >
             <NavIcon />
             FRAG
           </NavLogo>
@@ -49,21 +52,25 @@ const Navbar = () => {
           </HamburgerIcon>
           <NavMenu onClick={onClick} click={click}>
             <NavItem>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/React-With-Styled-Components/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/services">Services</NavLink>
+              <NavLink to="/React-With-Styled-Components/services">
+                Services
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/products">Products</NavLink>
+              <NavLink to="/React-With-Styled-Components/products">
+                Products
+              </NavLink>
             </NavItem>
             <NavItemBtn>
               {button ? (
-                <NavBtnLink to="/sign-up">
+                <NavBtnLink to="/React-With-Styled-Components/sign-up">
                   <Button>SIGN UP</Button>
                 </NavBtnLink>
               ) : (
-                <NavBtnLink to="/sign-up">
+                <NavBtnLink to="/React-With-Styled-Components/sign-up">
                   <Button>signup</Button>
                 </NavBtnLink>
               )}
