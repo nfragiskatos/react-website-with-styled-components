@@ -41,7 +41,7 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           <NavLogo
-            to="/React-With-Styled-Components/"
+            to="/react-website-with-styled-components/"
             onClick={closeMobileMenu}
           >
             <NavIcon />
@@ -52,25 +52,27 @@ const Navbar = () => {
           </HamburgerIcon>
           <NavMenu onClick={onClick} click={click}>
             <NavItem>
-              <NavLink to="/React-With-Styled-Components/">Home</NavLink>
+              <NavLink to="/react-website-with-styled-components/">
+                Home
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/React-With-Styled-Components/services">
+              <NavLink to="/react-website-with-styled-components/services">
                 Services
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/React-With-Styled-Components/products">
+              <NavLink to="/react-website-with-styled-components/products">
                 Products
               </NavLink>
             </NavItem>
             <NavItemBtn>
               {button ? (
-                <NavBtnLink to="/React-With-Styled-Components/sign-up">
+                <NavBtnLink to="/react-website-with-styled-components/sign-up">
                   <Button>SIGN UP</Button>
                 </NavBtnLink>
               ) : (
-                <NavBtnLink to="/React-With-Styled-Components/sign-up">
+                <NavBtnLink to="/react-website-with-styled-components/sign-up">
                   <Button>signup</Button>
                 </NavBtnLink>
               )}

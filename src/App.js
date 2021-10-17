@@ -17,17 +17,21 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <Switch>
-          <Route path="/React-With-Styled-Components" exact component={Home} />
           <Route
-            path="/React-With-Styled-Components/services"
+            path="/react-website-with-styled-components"
+            exact
+            component={Home}
+          />
+          <Route
+            path="/react-website-with-styled-components/services"
             component={Services}
           />
           <Route
-            path="/React-With-Styled-Components/products"
+            path="/react-website-with-styled-components/products"
             component={Products}
           />
           <Route
-            path="/React-With-Styled-Components/sign-up"
+            path="/react-website-with-styled-components/sign-up"
             component={SignUp}
           />
         </Switch>

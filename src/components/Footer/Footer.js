@@ -39,62 +39,72 @@ const Footer = () => {
         <FooterLinksWrapper>
           <FooterLinksItems>
             <FooterLinkTitle>about us</FooterLinkTitle>
-            <FooterLink to="/React-With-Styled-Components/sign-up">
+            <FooterLink to="/react-website-with-styled-components/sign-up">
               how it works
             </FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">
+            <FooterLink to="/react-website-with-styled-components/">
               testimonials
             </FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">careers</FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">
+            <FooterLink to="/react-website-with-styled-components/">
+              careers
+            </FooterLink>
+            <FooterLink to="/react-website-with-styled-components/">
               investors
             </FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">
+            <FooterLink to="/react-website-with-styled-components/">
               terms of service
             </FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
             <FooterLinkTitle>contact us</FooterLinkTitle>
-            <FooterLink to="/React-With-Styled-Components/sign-up">
+            <FooterLink to="/react-website-with-styled-components/sign-up">
               contact
             </FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">support</FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">
+            <FooterLink to="/react-website-with-styled-components/">
+              support
+            </FooterLink>
+            <FooterLink to="/react-website-with-styled-components/">
               destinations
             </FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">
+            <FooterLink to="/react-website-with-styled-components/">
               sponsorships
             </FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
             <FooterLinkTitle>videos</FooterLinkTitle>
-            <FooterLink to="/React-With-Styled-Components/sign-up">
+            <FooterLink to="/react-website-with-styled-components/sign-up">
               submit video
             </FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">
+            <FooterLink to="/react-website-with-styled-components/">
               ambassadors
             </FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">agency</FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">
+            <FooterLink to="/react-website-with-styled-components/">
+              agency
+            </FooterLink>
+            <FooterLink to="/react-website-with-styled-components/">
               influencer
             </FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
             <FooterLinkTitle>social media</FooterLinkTitle>
-            <FooterLink to="/React-With-Styled-Components/sign-up">
+            <FooterLink to="/react-website-with-styled-components/sign-up">
               twitter
             </FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">youtube</FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">
+            <FooterLink to="/react-website-with-styled-components/">
+              youtube
+            </FooterLink>
+            <FooterLink to="/react-website-with-styled-components/">
               linkedin
             </FooterLink>
-            <FooterLink to="/React-With-Styled-Components/">twitch</FooterLink>
+            <FooterLink to="/react-website-with-styled-components/">
+              twitch
+            </FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrapper>
-          <SocialMediaLogo to="/React-With-Styled-Components/">
+          <SocialMediaLogo to="/react-website-with-styled-components/">
             <SocialMediaIcon />
             frag
           </SocialMediaLogo>
