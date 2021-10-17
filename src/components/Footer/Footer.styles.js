@@ -1,3 +1,4 @@
+import { FaLeaf } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -75,10 +76,10 @@ export const FooterLinksContainer = styled.div`
 `;
 
 export const FooterLinksWrapper = styled.div`
-  display: flex;
-
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   @media screen and (max-width: 820px) {
-    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
 
@@ -113,4 +114,55 @@ export const FooterLink = styled(Link)`
     color: ${({ theme }) => theme.palette.accent.light};
     transition: 0.3s ease-out;
   }
+`;
+
+export const SocialMedia = styled.section`
+  max-width: 1000px;
+  width: 100%;
+`;
+
+export const SocialMediaWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+  }
+`;
+
+export const SocialMediaLogo = styled(Link)`
+  color: ${({ theme }) => theme.palette.secondary.main};
+  justify-self: start;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+`;
+
+export const SocialMediaIcon = styled(FaLeaf)`
+  margin-right: 10px;
+`;
+
+export const WebsiteRights = styled.small`
+  color: ${({ theme }) => theme.palette.secondary.main};
+  margin-bottom: 16px;
+`;
+
+export const SocialIcons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+`;
+
+export const SocialIconLink = styled.a`
+  color: ${({ theme }) => theme.palette.secondary.main};
+  font-size: 24px;
 `;
