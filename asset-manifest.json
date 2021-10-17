@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/React-With-Styled-Components/static/js/main.a7a913df.chunk.js",
+    "main.js.map": "/React-With-Styled-Components/static/js/main.a7a913df.chunk.js.map",
+    "runtime-main.js": "/React-With-Styled-Components/static/js/runtime-main.baf5df65.js",
+    "runtime-main.js.map": "/React-With-Styled-Components/static/js/runtime-main.baf5df65.js.map",
+    "static/js/2.537254e2.chunk.js": "/React-With-Styled-Components/static/js/2.537254e2.chunk.js",
+    "static/js/2.537254e2.chunk.js.map": "/React-With-Styled-Components/static/js/2.537254e2.chunk.js.map",
+    "index.html": "/React-With-Styled-Components/index.html",
+    "static/js/2.537254e2.chunk.js.LICENSE.txt": "/React-With-Styled-Components/static/js/2.537254e2.chunk.js.LICENSE.txt",
+    "static/media/before_dawn_primary.svg": "/React-With-Styled-Components/static/media/before_dawn_primary.5941bde1.svg",
+    "static/media/our_solution_accent.svg": "/React-With-Styled-Components/static/media/our_solution_accent.432ed490.svg",
+    "static/media/portrait2.jpg": "/React-With-Styled-Components/static/media/portrait2.f57d0b88.jpg",
+    "static/media/stars_accent.svg": "/React-With-Styled-Components/static/media/stars_accent.e2895bb5.svg",
+    "static/media/stars_primary.svg": "/React-With-Styled-Components/static/media/stars_primary.deb7b5bc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.baf5df65.js",
+    "static/js/2.537254e2.chunk.js",
+    "static/js/main.a7a913df.chunk.js"
+  ]
+}
